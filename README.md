@@ -4,7 +4,7 @@ It sounds as though you're describing a scenario where multiple forms (like the 
 ___
 ##### Minimal Expenses Form
 
-Since the visibility of theses forms can cycle repeatedly, it's important to intercept the `Close` action (for example, if user clicks the form's [X] box to close it) and convert it to a `Hide` action instead. This is to prevent the default behavior where the form `Handle` disposes when the form closes.
+Since the visibility of these forms can cycle repeatedly, it's important to intercept the `Close` action (for example, if user clicks the form's [X] box to close it) and convert it to a `Hide` action instead. This is to prevent the default behavior where the form `Handle` disposes when the form closes.
 
 ```
 public partial class ExpensesForm : Form
